@@ -31,7 +31,6 @@ Vulnerable platforms:
 -- nmap -6 --script WindowsKiller.nse --script-args 'interface=<interface>'
 -- nmap -6 --script WindowsKiller.nse --script-args 'interface=<interface>,timeout=10s'
 
-author = "Kleptocratic and Sam Browne"
 categories = {"dos"}
 
 try = nmap.new_try()

@@ -17,19 +17,8 @@ application requests.
 Vulnerable platforms:
 * All Cisco IOS ASA with firmware < November 2010
 * All Netscreen versions supporting IPv6
-* Windows 2000/XP/2003/Vista/7/2008/8/2012
-* All FreeBSD versions
-* All NetBSD versions
-* All Solaris/Illumos versions
-* Windows 10
+* Windows 2000/XP/2003/Vista/7/2008/8/2012/10
 
-Security advisory: http://www.mh-sec.de/downloads/mh-RA_flooding_CVE-2010-multiple.txt
-
-WARNING: This script is dangerous and is very likely to bring down a server or
-network appliance.  It should not be run in a production environment unless you
-(and, more importantly, the business) understand the risks!
-
-Additional documents: https://tools.ietf.org/rfc/rfc6104.txt
 ]]
 
 ---
@@ -43,8 +32,7 @@ Additional documents: https://tools.ietf.org/rfc/rfc6104.txt
 -- nmap -6 --script WindowsKiller.nse --script-args 'interface=<interface>,timeout=10s'
 
 author = "Kleptocratic and Sam Browne"
-license = "Same as Nmap--See https://nmap.org/book/man-legal.html"
-categories = {"dos", "intrusive"}
+categories = {"dos"}
 
 try = nmap.new_try()
 

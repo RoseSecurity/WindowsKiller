@@ -17,3 +17,7 @@ sudo mv WindowsKiller.nse /usr/local/share/nmap/scripts/
 # Execute script
 
 nmap -6 --script WindowsKiller.nse --script-args 'interface=<interface>'
+  
+# WindowKiller.py
+  
+Designed as an eternal loop to be compiled as an executable and placed on target host, the script will pseudo-generate IPv6 Router Advertisements and flood the network with potential connections. Warning: this script will crash most, if not all, Windows operating systems within the LAN. This script is for educational purposes only. Be wise, stay legal.

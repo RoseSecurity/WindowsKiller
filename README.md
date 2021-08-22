@@ -4,7 +4,7 @@ Generates a flood of Router Advertisements (RA) with random source MAC addresses
 
 # Install
 
-git clone https://github.com/Kleptocratic/IPv6-Router-Advertisement-DoS.git
+git clone https://github.com/Kleptocratic/WindowsKiller.git
 
 # Check for location of other NSE scripts
 

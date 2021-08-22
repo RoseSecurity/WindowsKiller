@@ -34,4 +34,6 @@ Go to your program’s directory and run:
 
 Navigate to the "dist" file to find your executable!
 
+# Virustotal 
+  
 ![WindowsKiller](https://user-images.githubusercontent.com/72598486/130345543-f3219aaa-651f-4787-8bd5-7614f6e0f731.png)

@@ -33,4 +33,4 @@ Go to your program’s directory and run:
   pyinstaller --onefile WindowsKiller.py
 
 Navigate to the "dist" file to find your executable!
-https://user-images.githubusercontent.com/72598486/130345503-5512f963-0af2-4c52-9b0d-2818d4acc152.png
+

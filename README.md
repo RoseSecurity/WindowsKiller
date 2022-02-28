@@ -44,9 +44,25 @@ Navigate to the "dist" file to find your executable!
   
 ```
 Mac OSX - ed664d8bf41bb35ca3f09fb5c913a747cace873ec318d5857b0fe2cceb08089c
-Linux - 
+Linux - 4b8f3ef3376463bd4e9c92c4e20a61e33baf9648336ed7abcc17dd14299b918b
 Windows - 
+```
   
 ## YARA
  
 ```
+rule WindowsKillerExecutable {
+    meta:
+      description = "Detects Windows Killer IPv6 Router Advertisement Denial of Service Executable"
+      date = "2022-02-27"
+      linuxhash = "4b8f3ef3376463bd4e9c92c4e20a61e33baf9648336ed7abcc17dd14299b918b"
+      machash = "ed664d8bf41bb35ca3f09fb5c913a747cace873ec318d5857b0fe2cceb08089c"
+    strings:
+      $ = "_MEIPASS"
+      $ = "PyMem_RawFree"
+      $ = "sWindowsKiller"
+      $ = "importlib.machinery"
+      $ = "blib-dynload/_random.cpython"
+    condition:
+      all of them
+}

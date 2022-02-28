@@ -37,3 +37,16 @@ Navigate to the "dist" file to find your executable!
 # VirusTotal 
   
 ![WindowsKiller](https://user-images.githubusercontent.com/72598486/130345543-f3219aaa-651f-4787-8bd5-7614f6e0f731.png)
+
+# Mitigation
+
+## Hashes
+  
+```
+Mac OSX - ed664d8bf41bb35ca3f09fb5c913a747cace873ec318d5857b0fe2cceb08089c
+Linux - 
+Windows - 
+  
+## YARA
+ 
+```

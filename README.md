@@ -68,3 +68,8 @@ rule WindowsKillerExecutable {
     condition:
       all of them
 }
+```
+
+## Community Engagement
+
+[![Stargazers over time](https://starchart.cc/RoseSecurity/WindowsKiller.svg)](https://starchart.cc/RoseSecurity/WindowsKiller)
